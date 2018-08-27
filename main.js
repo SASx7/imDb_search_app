@@ -7,7 +7,7 @@ let ajax_url;
 
 $(document).ready(()=>{
     
-    $('.switch-search').click(function(){
+    $('.switch-search').click(()=>{
         
         $('div#searchByName').css('display','none');
         $('div#searchByID').css('display','flex');
@@ -15,7 +15,7 @@ $(document).ready(()=>{
         $('#switch-search-Name').css('display','flex');
         });
 
-        $('#switch-search-Name').click(function(){
+        $('#switch-search-Name').click(()=>{
             console.log("click2");
             $('div#searchByID').css('display','none');
             $('div#searchByName').css('display','flex');
@@ -25,7 +25,7 @@ $(document).ready(()=>{
         
 
        
-    $('.start-search').click(function(){
+    $('.start-search').click(()=>{
         
         movie_name = $('#search-name').val();
         movie_date = $('#search-year').val();
