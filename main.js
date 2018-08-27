@@ -34,10 +34,10 @@ $(document).ready(()=>{
 
 
         if(movie_ID == ""){
-            ajax_url = 'http://www.omdbapi.com/?t='+ movie_name+ '&y='+ movie_date+'&apikey=b650211a';
+            ajax_url = 'https://www.omdbapi.com/?t='+ movie_name+ '&y='+ movie_date+'&apikey=b650211a';
         }
         else{
-            ajax_url = 'http://www.omdbapi.com/?i='+ movie_ID+ '&apikey=b650211a';
+            ajax_url = 'https://www.omdbapi.com/?i='+ movie_ID+ '&apikey=b650211a';
         }
              
         getAllData();
