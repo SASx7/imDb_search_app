@@ -44,7 +44,7 @@ $(document).ready(()=>{
         
     });
 
-    $('#search-again').click(function(){
+    $('#search-again').click(()=>{
         location.reload(true);
     })
 
